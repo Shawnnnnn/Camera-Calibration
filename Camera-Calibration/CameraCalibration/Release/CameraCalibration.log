@@ -1,0 +1,77 @@
+﻿生成启动时间为 2017/8/16 11:43:53。
+     1>项目“C:\Users\Shawn\Desktop\视频gis\CameraCalibration\CameraCalibration\CameraCalibration.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /Zi /nologo /W3 /WX- /sdl /O2 /Oi /Oy- /GL /D WIN32 /D _WINDOWS /D NDEBUG /D _CRT_SECURE_NO_WARNINGS /D _UNICODE /D UNICODE /D _AFXDLL /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt DLT\DLT2.cpp
+         DLT2.cpp
+     1>DLT\DLT2.cpp(102): warning C4018: “<”: 有符号/无符号不匹配
+     1>DLT\DLT2.cpp(107): warning C4018: “<”: 有符号/无符号不匹配
+     1>DLT\DLT2.cpp(177): warning C4018: “<”: 有符号/无符号不匹配
+     1>DLT\DLT2.cpp(182): warning C4018: “<”: 有符号/无符号不匹配
+     1>DLT\DLT2.cpp(365): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DLT\DLT2.cpp(366): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D NDEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /IRelease\ /nologo /fo"Release\CameraCalibration.res" CameraCalibration.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Shawn\Desktop\视频gis\CameraCalibration\Release\CameraCalibration.exe" /INCREMENTAL:NO /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Shawn\Desktop\视频gis\CameraCalibration\Release\CameraCalibration.pdb" /SUBSYSTEM:WINDOWS /OPT:REF /OPT:ICF /LTCG /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Shawn\Desktop\视频gis\CameraCalibration\Release\CameraCalibration.lib" /MACHINE:X86 /SAFESEH Release\CameraCalibration.res
+         Release\CameraCalibration.obj
+         Release\CameraCalibrationDlg.obj
+         Release\CheckerboardCalibrationDlg.obj
+         Release\DLTCalibrationDlg.obj
+         Release\DLT.obj
+         Release\DLT2.obj
+         Release\DLT3.obj
+         Release\stdafx.obj
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: static class cv::Formatter const * __cdecl cv::Formatter::get(char const *)" (?get@Formatter@cv@@SAPBV12@PBD@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: class cv::Mat & __thiscall cv::Mat::operator=(class cv::Scalar_<double> const &)" (??4Mat@cv@@QAEAAV01@ABV?$Scalar_@N@1@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::create(int,int const *,int)" (?create@Mat@cv@@QAEXHPBHH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "int __cdecl cv::_interlockedExchangeAdd(int *,int)" (?_interlockedExchangeAdd@cv@@YAHPAHH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::copySize(class cv::Mat const &)" (?copySize@Mat@cv@@QAEXABV12@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::fastFree(void *)" (?fastFree@cv@@YAXPAX@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::copyTo(class cv::_OutputArray const &)const " (?copyTo@Mat@cv@@QBEXABV_OutputArray@2@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall cv::_OutputArray::_OutputArray(class cv::Mat &)" (??0_OutputArray@cv@@QAE@AAVMat@1@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall cv::_InputArray::_InputArray(class cv::Mat const &)" (??0_InputArray@cv@@QAE@ABVMat@1@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: void __thiscall cv::Mat::deallocate(void)" (?deallocate@Mat@cv@@QAEXXZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class cv::Mat __thiscall cv::_InputArray::getMat(int)const " (?getMat@_InputArray@cv@@UBE?AVMat@2@H@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall cv::_OutputArray::create(int,int,int,int,bool,int)const " (?create@_OutputArray@cv@@UBEXHHHH_NH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "class cv::_OutputArray const & __cdecl cv::noArray(void)" (?noArray@cv@@YAABV_OutputArray@1@XZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "class cv::Mat __cdecl cv::imread(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,int)" (?imread@cv@@YA?AVMat@1@ABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@H@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "bool __cdecl cv::findChessboardCorners(class cv::_InputArray const &,class cv::Size_<int>,class cv::_OutputArray const &,int)" (?findChessboardCorners@cv@@YA_NABV_InputArray@1@V?$Size_@H@1@ABV_OutputArray@1@H@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::cvtColor(class cv::_InputArray const &,class cv::_OutputArray const &,int,int)" (?cvtColor@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@HH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "bool __cdecl cv::find4QuadCornerSubpix(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::Size_<int>)" (?find4QuadCornerSubpix@cv@@YA_NABV_InputArray@1@ABV_OutputArray@1@V?$Size_@H@1@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::drawChessboardCorners(class cv::_OutputArray const &,class cv::Size_<int>,class cv::_InputArray const &,bool)" (?drawChessboardCorners@cv@@YAXABV_OutputArray@1@V?$Size_@H@1@ABV_InputArray@1@_N@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::imshow(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &)" (?imshow@cv@@YAXABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@1@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "int __cdecl cv::waitKey(int)" (?waitKey@cv@@YAHH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "double __cdecl cv::calibrateCamera(class cv::_InputArray const &,class cv::_InputArray const &,class cv::Size_<int>,class cv::_OutputArray const &,class cv::_OutputArray const &,class cv::_OutputArray const &,class cv::_OutputArray const &,int,class cv::TermCriteria)" (?calibrateCamera@cv@@YANABV_InputArray@1@0V?$Size_@H@1@ABV_OutputArray@1@222HVTermCriteria@1@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: __thiscall cv::_OutputArray::_OutputArray(class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > &)" (??0_OutputArray@cv@@QAE@AAV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::projectPoints(class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::_OutputArray const &,class cv::_OutputArray const &,double)" (?projectPoints@cv@@YAXABV_InputArray@1@0000ABV_OutputArray@1@1N@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "double __cdecl cv::norm(class cv::_InputArray const &,class cv::_InputArray const &,int,class cv::_InputArray const &)" (?norm@cv@@YANABV_InputArray@1@0H0@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::Rodrigues(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::_OutputArray const &)" (?Rodrigues@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@1@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: static class cv::MatExpr __cdecl cv::Mat::eye(int,int,int)" (?eye@Mat@cv@@SA?AVMatExpr@2@HHH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::initUndistortRectifyMap(class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,class cv::Size_<int>,int,class cv::_OutputArray const &,class cv::_OutputArray const &)" (?initUndistortRectifyMap@cv@@YAXABV_InputArray@1@000V?$Size_@H@1@HABV_OutputArray@1@2@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "void __cdecl cv::remap(class cv::_InputArray const &,class cv::_OutputArray const &,class cv::_InputArray const &,class cv::_InputArray const &,int,int,class cv::Scalar_<double> const &)" (?remap@cv@@YAXABV_InputArray@1@ABV_OutputArray@1@00HHABV?$Scalar_@N@1@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "bool __cdecl cv::imwrite(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const &,class cv::_InputArray const &,class std::vector<int,class std::allocator<int> > const &)" (?imwrite@cv@@YA_NABV?$basic_string@DU?$char_traits@D@std@@V?$allocator@D@2@@std@@ABV_InputArray@1@ABV?$vector@HV?$allocator@H@std@@@3@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall cv::_InputArray::getMatVector(class std::vector<class cv::Mat,class std::allocator<class cv::Mat> > &)const " (?getMatVector@_InputArray@cv@@UBEXAAV?$vector@VMat@cv@@V?$allocator@VMat@cv@@@std@@@std@@@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class cv::GlBuffer __thiscall cv::_InputArray::getGlBuffer(void)const " (?getGlBuffer@_InputArray@cv@@UBE?AVGlBuffer@2@XZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class cv::GlTexture __thiscall cv::_InputArray::getGlTexture(void)const " (?getGlTexture@_InputArray@cv@@UBE?AVGlTexture@2@XZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class cv::gpu::GpuMat __thiscall cv::_InputArray::getGpuMat(void)const " (?getGpuMat@_InputArray@cv@@UBE?AVGpuMat@gpu@2@XZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall cv::_InputArray::kind(void)const " (?kind@_InputArray@cv@@UBEHXZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class cv::Size_<int> __thiscall cv::_InputArray::size(int)const " (?size@_InputArray@cv@@UBE?AV?$Size_@H@2@H@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual unsigned int __thiscall cv::_InputArray::total(int)const " (?total@_InputArray@cv@@UBEIH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall cv::_InputArray::type(int)const " (?type@_InputArray@cv@@UBEHH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall cv::_InputArray::depth(int)const " (?depth@_InputArray@cv@@UBEHH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual int __thiscall cv::_InputArray::channels(int)const " (?channels@_InputArray@cv@@UBEHH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall cv::_InputArray::empty(void)const " (?empty@_InputArray@cv@@UBE_NXZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall cv::_OutputArray::fixedSize(void)const " (?fixedSize@_OutputArray@cv@@UBE_NXZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall cv::_OutputArray::fixedType(void)const " (?fixedType@_OutputArray@cv@@UBE_NXZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual bool __thiscall cv::_OutputArray::needed(void)const " (?needed@_OutputArray@cv@@UBE_NXZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual class cv::Mat & __thiscall cv::_OutputArray::getMatRef(int)const " (?getMatRef@_OutputArray@cv@@UBEAAVMat@2@H@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall cv::_OutputArray::create(int,int const *,int,int,bool,int)const " (?create@_OutputArray@cv@@UBEXHPBHHH_NH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall cv::_OutputArray::create(class cv::Size_<int>,int,int,bool,int)const " (?create@_OutputArray@cv@@UBEXV?$Size_@H@2@HH_NH@Z)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall cv::_OutputArray::release(void)const " (?release@_OutputArray@cv@@UBEXXZ)
+     1>CheckerboardCalibrationDlg.obj : error LNK2001: 无法解析的外部符号 "public: virtual void __thiscall cv::_OutputArray::clear(void)const " (?clear@_OutputArray@cv@@UBEXXZ)
+     1>C:\Users\Shawn\Desktop\视频gis\CameraCalibration\Release\CameraCalibration.exe : fatal error LNK1120: 48 个无法解析的外部命令
+     1>已完成生成项目“C:\Users\Shawn\Desktop\视频gis\CameraCalibration\CameraCalibration\CameraCalibration.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.79

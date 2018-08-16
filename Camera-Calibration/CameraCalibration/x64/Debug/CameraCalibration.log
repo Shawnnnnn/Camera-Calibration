@@ -1,0 +1,57 @@
+﻿生成启动时间为 2017/8/16 13:11:05。
+     1>项目“C:\Users\Shawn\Desktop\视频gis\CameraCalibration\CameraCalibration\CameraCalibration.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yc"stdafx.h" /Fp"x64\Debug\CameraCalibration.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt stdafx.cpp
+         stdafx.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"x64\Debug\CameraCalibration.pch" /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt CameraCalibration.cpp CameraCalibrationDlg.cpp CheckerboardCalibrationDlg.cpp DLTCalibrationDlg.cpp DLT\DLT.cpp DLT\DLT3.cpp
+         DLT3.cpp
+     1>DLT\DLT3.cpp(309): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLT\DLT3.cpp(310): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLT\DLT3.cpp(407): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLT\DLT3.cpp(408): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLT\DLT3.cpp(431): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLT\DLT3.cpp(432): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLT\DLT3.cpp(455): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+         DLT.cpp
+     1>DLT\DLT.cpp(31): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLT\DLT.cpp(32): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+         DLTCalibrationDlg.cpp
+         CheckerboardCalibrationDlg.cpp
+     1>CheckerboardCalibrationDlg.cpp(133): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>CheckerboardCalibrationDlg.cpp(181): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>CheckerboardCalibrationDlg.cpp(182): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+     1>CheckerboardCalibrationDlg.cpp(211): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+     1>CheckerboardCalibrationDlg.cpp(212): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+         CameraCalibrationDlg.cpp
+         CameraCalibration.cpp
+         正在生成代码...
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\CL.exe /c /Zi /nologo /W3 /WX- /sdl /Od /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"x64\Debug\\" /Fd"x64\Debug\vc120.pdb" /Gd /TP /errorReport:prompt DLT\DLT2.cpp
+         DLT2.cpp
+     1>c:\users\shawn\desktop\视频gis\cameracalibration\cameracalibration\dlt\Matrix.h(16): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>c:\users\shawn\desktop\视频gis\cameracalibration\cameracalibration\dlt\Matrix.h(17): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>c:\users\shawn\desktop\视频gis\cameracalibration\cameracalibration\dlt\Matrix.h(114): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>c:\users\shawn\desktop\视频gis\cameracalibration\cameracalibration\dlt\Matrix.h(115): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>c:\users\shawn\desktop\视频gis\cameracalibration\cameracalibration\dlt\Matrix.h(138): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>c:\users\shawn\desktop\视频gis\cameracalibration\cameracalibration\dlt\Matrix.h(139): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>c:\users\shawn\desktop\视频gis\cameracalibration\cameracalibration\dlt\Matrix.h(162): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLT\DLT2.cpp(345): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+     1>DLT\DLT2.cpp(365): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+     1>DLT\DLT2.cpp(366): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+       ResourceCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /l"0x0804" /Ix64\Debug\ /nologo /fo"x64\Debug\CameraCalibration.res" CameraCalibration.rc 
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\x86_amd64\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Shawn\Desktop\视频gis\CameraCalibration\x64\Debug\CameraCalibration.exe" /INCREMENTAL /NOLOGO opencv_world330d.lib opencv_world330.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\Shawn\Desktop\视频gis\CameraCalibration\x64\Debug\CameraCalibration.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Shawn\Desktop\视频gis\CameraCalibration\x64\Debug\CameraCalibration.lib" /MACHINE:X64 x64\Debug\CameraCalibration.res
+         x64\Debug\CameraCalibration.obj
+         x64\Debug\CameraCalibrationDlg.obj
+         x64\Debug\CheckerboardCalibrationDlg.obj
+         x64\Debug\DLTCalibrationDlg.obj
+         x64\Debug\DLT.obj
+         x64\Debug\DLT2.obj
+         x64\Debug\DLT3.obj
+         x64\Debug\stdafx.obj
+         CameraCalibration.vcxproj -> C:\Users\Shawn\Desktop\视频gis\CameraCalibration\x64\Debug\CameraCalibration.exe
+     1>已完成生成项目“C:\Users\Shawn\Desktop\视频gis\CameraCalibration\CameraCalibration\CameraCalibration.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:03.69
